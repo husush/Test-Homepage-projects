@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: inter, sans-serif;
+
+}
+body{
+    background-image: url(https://wallpaperaccess.com/full/99808.jpg);
+}
+header{
+    position: fixed;
+    width: 100%;
+    /* z-index: 1; */
+    background-color: rgba(117, 192, 167, 0.6);
+}
+
+.logo{
+    margin: 30px;
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgba(224, 124, 10, 0.959);
+    text-decoration: wavy;
+    background-color: rgba(15, 14, 14, 0.185);
+    font-style: normal;
+    
+
+    
+}
+.container{
+    max-width: 1280px;
+    height: 140px;
+    margin: auto;
+}
+.navigator{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.anchors{
+    /* padding: 30px; */
+    margin: 20px;
+    gap: 20px;
+    text-decoration: none;
+
+}
+.anchors:hover{
+    /* background-color: black; */
+}
+section{
+    overflow: hidden;
+    /* background-color: rgb(170, 170, 43); */
+}
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(251, 251, 251, 0.54);
+    margin-top: 100px;
+    width: 100%;
+    padding: 3px;
+    align-items: center;
+    align-content: center;
+    
+}
+.sessions{
+    text-decoration: none;
+    /* background-color: yellowgreen; */
+    overflow: hidden;
+    /* padding-left: 50px; */
+    margin-left: 100px;
+    color: white;
+    
+
+}
+.bots{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+   
+
+}
+.box1{
+    background-color:rgba(0, 128, 0, 0.4);
+    height: 250px;
+    width: 170px;
+    margin: 100px;
+    border-radius: 20%;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 20px;
+    
+}
+.box2{
+    background-color:rgba(0, 128, 0, 0.5);
+    height: 250px;
+    width: 170px;
+    margin: 100px;
+    border-radius: 20%;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 20px;
+    
+}
+.box3{
+    background-color:rgba(0, 128, 0, 0.6);
+    height: 250px;
+    width: 170px;
+    margin: 100px;
+    border-radius: 20%;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 20px;
+    
+}
+
+    h1{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 0;
+        color: white;
+    }
